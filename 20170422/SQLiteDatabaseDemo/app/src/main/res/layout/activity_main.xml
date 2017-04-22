@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cpp.lilin.sqlitedatabasedemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_cls_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插入专业数据"/>
+
+    <Button
+        android:id="@+id/btn_cls_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除专业数据"/>
+
+    <Button
+        android:id="@+id/btn_cls_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改专业数据"/>
+
+    <Button
+        android:id="@+id/btn_cls_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询专业数据"/>
+
+    <Button
+        android:id="@+id/btn_stu_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插入学生数据"/>
+
+    <Button
+        android:id="@+id/btn_stu_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询学生数据"/>
+
+
+</LinearLayout>
